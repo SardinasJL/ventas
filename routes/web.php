@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 Route::resource("ventas", "App\Http\Controllers\VentaController");
 Route::resource("articulos", "App\Http\Controllers\ArticuloController");
-
+Route::resource("ventas.detalles", "App\Http\Controllers\DetalleController");

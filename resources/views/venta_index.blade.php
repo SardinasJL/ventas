@@ -32,6 +32,7 @@
                                 <td>{{$venta->fecha}}</td>
                                 <td>
                                     <div class="btn-group">
+                                        <a href="{{route("ventas.detalles.index", [$venta])}}" class="btn btn-success">Detalle</a>
                                         <a href="{{route("ventas.edit", [$venta])}}" class="btn btn-primary">Editar</a>
                                         <!-- Button trigger modal -->
                                         <button type="button" class="btn btn-danger" data-bs-toggle="modal"
